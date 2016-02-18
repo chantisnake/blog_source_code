@@ -1,7 +1,7 @@
 ---
 title: new blog
 date: 2016-02-17 18:14:31
-catagory: Just Saying
+category: just saying
 tags: English Blog
 ---
 

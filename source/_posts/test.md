@@ -1,7 +1,8 @@
 ---
 title: test
 date: 2016-02-16 21:24:49
-tags:
+category: computer
+tags: English Blog
 ---
 testing file
 
