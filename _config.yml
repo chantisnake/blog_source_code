@@ -5,7 +5,7 @@
 # Site
 title: Study of Human Knowledge
 subtitle: Chantisnake's Blog
-description: 
+description:
 author: Cheng Zhang
 language: en
 timezone:
@@ -63,10 +63,18 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+plugins: hexo-math
 theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
-  
+  type:
+
+# Markdown-it config
+## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki/
+markdown:
+  render:
+    html: true # Doesn't escape HTML content
+    linkify: true # Returns text links as proper links inlined with the paragraph.
+    typographer: true # Substitution of common typographical elements will take place.
