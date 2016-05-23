@@ -18,7 +18,7 @@ Well, this post did not explain how divisibility graph works, but this post does
 
 Here is the divisibility graph of 7 with base 10:
 
-![](./assets/divisibilty_graph/graph_7_base_10.png)
+![](/images/divisibilty_graph/graph_7_base_10.png)
 
 This can be used to calculate the result of $a \mod 7$, given $a$ is in base 10. 
 
@@ -37,7 +37,7 @@ Therefore we will call the graph with black arrows: black arrow graph.
 
 The black arrow graph of 7 with base 10 are like this:
 
-![](./assets/divisibilty_graph/black_arrow_graph_7_base_10.png)
+![](/images/divisibilty_graph/black_arrow_graph_7_base_10.png)
 
 Which is not interesting at all, each arrow takes a number and increase it by 1 in mod 7 space.
 
@@ -51,7 +51,7 @@ I will some time refer to this graph as red arrow graph, because drawing a white
 
 The red arrow graph of 7 with base 10 are like this:
 
-![](./assets/divisibilty_graph/red_arrow_graph_7_base_10.png)
+![](/images/divisibilty_graph/red_arrow_graph_7_base_10.png)
 
 This is a little more interesting than black arrow graph.
 Each arrow takes a number $a$ and goes to $(a \times Base) \mod 7$ 
