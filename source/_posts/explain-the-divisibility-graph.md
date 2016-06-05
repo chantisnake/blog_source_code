@@ -1,7 +1,8 @@
 ---
 title: explain the divisibility graph
 date: 2016-05-22 19:06:57
-tags:
+tags: English Blog
+categories: mathematics
 ---
 
 # explain the divisibility graph
@@ -62,4 +63,19 @@ In fact, my research are mainly focused on the graph property of red arrow graph
 
 ## how do this graph work
 
-I will update this tomorrow...
+Here is the description that the original blog gives:
+
+> Write down a number n. Start at the small white node at the bottom of the graph. For each digit d in n, follow d black arrows in a succession, and as you move from one digit to the next, follow 1 white arrow.
+> 
+> For example, if n = 325, follow 3 black arrows, then 1 white arrow, then 2 black arrows, then 1 white arrow, and finally 5 black arrows.
+> 
+> If you end up back at the white node, n is divisible by 7. 
+
+Then why do this works?
+
+Recall that how black arrow graph and white arrow graph is defined:
+
+  * black arrow graph: takes a number and increment this number by 1 in mod 7 space.
+    Basically given $a$ and the arrow outputs $a + 1 mod 7$.
+
+  * red arrow graph: takes a number and multiply it by 
