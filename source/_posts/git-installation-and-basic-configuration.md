@@ -133,7 +133,7 @@ choco install git-credential-manager-for-windows
 
 here is the document and the repo [Git Credential Manager for Windows](https://github.com/Microsoft/Git-Credential-Manager-for-Windows)
 
-This seems like awesome... 
+This seems like awesome... Here is a paragraph of the readme: 
 
 > ### How to use
 >
