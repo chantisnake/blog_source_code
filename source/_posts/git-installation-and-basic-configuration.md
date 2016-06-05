@@ -76,7 +76,7 @@ $ xclip -sel clip < ~/.ssh/id_rsa.pub
 $ pbcopy < ~/.ssh/id_rsa.pub
 ```
 
-Don\'t forget to change `"your_email@example.com"` on the second line to your registered email of GitHub 
+Don't forget to change `"your_email@example.com"` on the second line to your registered email of GitHub 
 
 now all you need to do is to add your ssh-key to paste your ssh to your GitHub, see this tutorial: [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
