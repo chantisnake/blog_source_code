@@ -31,7 +31,7 @@ brew install git
 
 ### windows
 
-[chocolety](chocolatey.org) is the way I will recommend it.
+[chocolety](https://chocolatey.org/) is the way I will recommend it.
 Run powershell in admin, then do this:
 
 ```bash
