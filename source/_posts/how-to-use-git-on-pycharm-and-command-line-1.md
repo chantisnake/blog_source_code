@@ -63,7 +63,7 @@ On the other hand, the blue `~1` and `-1` means the modification and deletion is
 If you create a file on pycharm in a git directory, 
 pycharm will automatically prompt you for whether to add this file.
 
-I will create a new file call test:
+I will create a new file called `test`:
 
 ![](/images/git_basic/pycharm_new_file.PNG)
 
