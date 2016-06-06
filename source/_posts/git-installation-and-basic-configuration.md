@@ -12,8 +12,6 @@ I find this video helpful to establish some good git habits:
 [Advanced Git Topic](https://channel9.msdn.com/events/MVP-RD-Americas/GitHub--Microsoft-Partnership/GH3-AdvancedGit-commits-stash-stagingarea).
 This video is created by one of the employer of GitHub and bunch of Microsoft MVP's.
 
-Let's get started with some basic.
-
 ## installing git
 
 ### ubuntu (debian)
