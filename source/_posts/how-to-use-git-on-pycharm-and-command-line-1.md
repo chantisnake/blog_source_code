@@ -1,59 +1,18 @@
 ---
-title: a introduction to basic git command
-date: 2016-06-05 15:34:25
+title: how to use git on both pycharm and command line (1)
+date: 2016-06-05 21:25:20
 tags: English Blog
 categories: computer
 ---
 
-* **Please note that git is far more powerful than this blog can cover.**
-
-If you want to learn more about git, 
-I find this video helpful to establish some good git habits:
-[Advanced Git Topic](https://channel9.msdn.com/events/MVP-RD-Americas/GitHub--Microsoft-Partnership/GH3-AdvancedGit-commits-stash-stagingarea).
-This video is created by one of the employer of GitHub and bunch of Microsoft MVP's.
-
+This section we will introduce couple of commonly used git command and how to use them both in command line and pycharm
 
 * **all the following demo is using gvim, pycharm on windows 10 and powershell 5 with ConEmu**
 
 
-## Important Git Concepts
+## git add 
 
-
-### commit 
-This is the hardest concept I will introduce in this article.
-
-Commit is basically like a **saving point of your program**. 
-Every time you created a commit means you have saved you current image of your program inside of a git.
-
-* Noticed what saved inside of the git is actually the **difference between your current commit and your previous commit** .
-Therefore when we say **"applying a commit to a program"** means redo all the actions you did from the last commit to a program.
-
-For example, I have a code project looks like this:
-![](/images/git_basic/befor_change.PNG)
-
-After I added two line:
-![](/images/git_basic/after_change.PNG)
-
-After I commit this change, the two lines, inside git will say that I added two lines on the `New_File`(this is the file name of the file I am changing) in this commit.
-So if we say that "apply this commit to local" means add these two lines on the `New_File` on `local`(this is the concept we will encounter later) 
-
-### local and remote
-
-Because one of the power of the git is to backup all your code on a remote server(which is just another computer that is connected to the internet),
-therefore git need a `remote` server and your own `local` computer.
-
-The syncing between the server (`remote`) and your current computer (`local`) is manual, not automatic real time syncing,
-and also because there are other people using the same server to `colaborate` (which just means to edit the same code project at the same time), therefore there can be difference between local and remote.
-
-
-## Git Commands
-
-This section we will introduce couple of commonly used git command and how to use them both in command line and pycharm
-
-
-### git add 
-
-#### command line
+### command line
 
 this command adds changes in to your git info, and waiting to be committed.
 
@@ -124,5 +83,6 @@ After adding notice that the file name turns green:
 Green file name indicates new file, and blue file name means changed files.
 
 ## git commit 
+
 
 
