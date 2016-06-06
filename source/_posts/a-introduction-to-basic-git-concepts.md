@@ -22,7 +22,7 @@ therefore git only works in a folder, and keeps all the changes in this folder.
 
 The identifier of a git folder is typically a `.git/` folder
 
-![](./images/git_concepts/dot_git_folder.PNG)
+![](/images/git_concepts/dot_git_folder.PNG)
 
 on the left side of the editor (which is a file explore), you can see a `.git` directory, this is where git keeps all it's info.
 
