@@ -1,8 +1,10 @@
 ---
 title: test
 date: 2016-02-16 21:24:49
-category: computer
-tags: English Blog
+category: English Blog
+tags: 
+  - computer
+  - hexo
 ---
 testing file
 

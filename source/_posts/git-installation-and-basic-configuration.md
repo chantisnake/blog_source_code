@@ -1,8 +1,11 @@
 ---
 title: git installation and basic configuration
 date: 2016-06-05 15:07:24
-tags: English Blog
-categories: computer
+tags:
+  - computer
+  - git
+  - powershell
+categories: English Blog
 ---
 
 * Please note that git is far more powerful than this blog can cover.

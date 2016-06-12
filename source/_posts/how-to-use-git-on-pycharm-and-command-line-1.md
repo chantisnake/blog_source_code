@@ -1,8 +1,12 @@
 ---
 title: how to use git on both pycharm and command line (1)
 date: 2016-06-05 21:25:20
-tags: English Blog
-categories: computer
+tags: 
+  - computer
+  - pycharm
+  - powershell
+  - git
+categories: English Blog
 ---
 
 This section we will introduce couple of commonly used git command and how to use them both in command line and pycharm

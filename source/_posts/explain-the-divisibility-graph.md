@@ -1,8 +1,10 @@
 ---
 title: explain the divisibility graph
 date: 2016-05-22 19:06:57
-tags: English Blog
-categories: mathematics
+tags: 
+  - mathematics 
+  - graph theory
+categories: English Blog
 ---
 
 # explain the divisibility graph

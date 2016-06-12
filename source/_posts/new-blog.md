@@ -1,8 +1,8 @@
 ---
 title: new blog
 date: 2016-02-17 18:14:31
-category: just saying
-tags: English Blog
+category: English Blog
+tags: just saying
 ---
 
 This is the new blog that I am current using.
