@@ -78,6 +78,33 @@ Then why do this works?
 Recall that how black arrow graph and white arrow graph is defined:
 
   * black arrow graph: takes a number and increment this number by 1 in mod 7 space.
-    Basically given $a$ and the arrow outputs $a + 1 mod 7$.
+    Basically given $a$ and the arrow outputs $a + 1 \mod 7$.
 
-  * red arrow graph: takes a number and multiply it by 
+  * red arrow graph: takes a number and multiply it by the base (this is 10 in previous examples), and then mod by 7, therefore goes to $a \cdot 10 \mod 7$
+
+Let's take an example: 352. Obviously we can decompose the number into $(3 \cdot 10+5) \cdot 10+2$.
+
+First we follow the black arrow graph for 3 times (because the first digit in 352 is 3),
+then we get to 3, easy to notice this is the result of $3 \mod 7$
+
+Then, we change a number, therefore follow the white arrow once.
+We get the result of $(3 \mod 7) \cdot 10 \mod 7$.
+Notice what we got is actually $3 \cdot 10 \mod 7$, this is pretty easy to prove if you use $(b \mod a) \mod a \equiv b \mod a$
+
+From this point, we continue to move 5 times follow the black arrow.
+Therefore we are actually adding 5 and mod 7.
+We get the result of $(3 \cdot 10 + 5) \mod 7$.
+
+Did you notice some connections?
+We are actually breaking up 352 into  $(3 \cdot 10+5) \cdot 10+2$. Then calculate.
+
+Then move from number 5 to number 2 we follow white arrow graph and get the result of 
+$(3 \cdot 10+5) \cdot 10 \mod 7$
+
+Finally we follow black arrow 2 times (last digit 2 in 352). 
+we get $(3 \cdot 10+5) \cdot 10 + 2 \mod 7$
+
+From this point on we have fully understand why divisibility graph works,
+and we can then create any divisibility graph for any number in any base.
+
+My research starts from this point. I will give more theorem on this later.
