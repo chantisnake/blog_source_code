@@ -6,4 +6,4 @@ node_modules/
 public/
 .deploy*/
 *.swp
-source/_posts/images/*
+source/images/*
