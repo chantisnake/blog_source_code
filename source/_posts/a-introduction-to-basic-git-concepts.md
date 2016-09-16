@@ -2,9 +2,8 @@
 title: a introduction to basic git concepts
 date: 2016-06-05 15:34:25
 tags: 
-  - computer
   - git
-categories: English Blog
+categories: computer
 ---
 
 * **Please note that git is far more powerful than this blog can cover.**
